@@ -3,104 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
-    <title>FlexBox and JS Demo</title>
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="FlexNavStyle.css">
-    <script src="jquery-3.2.1.min/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="Demo1_Style.css">
+    <link rel="stylesheet" href="MusicAnimation.css">
+    <title>JavaScript Drum Kit</title>
 </head>
 <body>
-<div class="wrapper">
-    <header class="top">
-        <h1>FlexBox and JS Demo</h1>
-    </header>
-    <nav class="flex-nav">
-        <a id="navToggle" href="#">Menu ≡</a>
-        <ul id="ul">
-            <li><a href="Demo1.html">Demo 01</a></li>
-            <li><a href="#">Demo 02</a></li>
-            <li><a href="#">Demo 03</a></li>
-            <li><a href="#">Demo 04</a></li>
-            <li><a href="#">Demo 05</a></li>
-            <li><a href="#">Demo 06</a></li>
-
-            <li class="social">
-                <a href="https://eme-404.github.io/myPortfolio/"><i class="fa fa-twitter"></i> </a>
-            </li>
-            <li class="social">
-                <a href="https://eme-404.github.io/myPortfolio/"><i class="fa fa-facebook"></i> </a>
-            </li>
-            <li class="social">
-                <a href="https://github.com/eMe-404"><i class="fa fa-github"></i> </a>
-            </li>
-            <li class="social">
-                <a href="https://eme-404.github.io/myPortfolio/"><i class="fa fa-free-code-camp"></i> </a>
-            </li>
-
-        </ul>
+<header>
+    <nav>
+        <a href="FlexNav.html">HOME</a>
     </nav>
-    
-    <section class="hero default-section">
-        <img id="img" alt="loading the picture..." src="">
+</header>
+<section class="myContainer">
+    <header class="header">
+        <h1>Play some music !</h1>
+    </header>
+
+    <!-- music animation-->
+    <section class='container'>
+        <div class='bar area1'></div>
+        <div class='bar area1'></div>
+        <div class='bar area1'></div>
+        <div class='bar area1'></div>
+        <div class='bar area1'></div>
+        <div class='bar area1'></div>
+        <div class='bar area1'></div>
+        <div class='bar area2'></div>
+        <div class='bar area2'></div>
+        <div class='bar area2'></div>
+        <div class='bar area2'></div>
+        <div class='bar area2'></div>
+        <div class='bar area2'></div>
+        <div class='bar area3'></div>
+        <div class='bar area3'></div>
+        <div class='bar area3'></div>
+        <div class='bar area3'></div>
+        <div class='bar area3'></div>
+        <div class='bar area3'></div>
+        <div class='bar area3'></div>
     </section>
 
-    <section class="details default-section">
-        <p>You can click the picture to change it</p>
-        <p>Highly recommend Wes Bos courses ,sign up today to grab all the videos and exercises!
-            <a href="http://wesbos.com/" id="WesBos">Wes Bos</a></p>
-    </section>
+    <!-- key -->
+    <section class="DrumKit">
+        <div class="row">
+            <div class="key area1" data-key="49"><span>1</span></div>
+            <div class="key area1" data-key="50"><span>2</span></div>
+            <div class="key area1" data-key="51"><span>3</span></div>
+            <div class="key area2" data-key="52"><span>4</span></div>
+            <div class="key area2" data-key="53"><span>5</span></div>
+            <div class="key area2" data-key="54"><span>6</span></div>
+            <div class="key area3" data-key="55"><span>7</span></div>
+            <div class="key area3" data-key="56"><span>8</span></div>
+            <div class="key area3" data-key="57"><span>9</span></div>
+            <div class="key area3" data-key="48"><span>0</span></div>
+            <div class="key" id="stopKey" data-key="189"><span>♪</span></div>
 
-    <section class="price-grid">
-        <div  class="courses">
-            <h2>ES6</h2>
-            <p>ES6 is a major update and includes new features. </p>
-            <ul>
-                <li>A premium training course</li>
-                <li>core JavaScript skills</li>
-            </ul>
-            <p class="price">78$</p>
-            <a href="https://es6.io/" class="join">Join</a>
         </div>
-
-        <div  class="courses">
-            <h2>JS 30</h2>
-            <p>A free 30 day vanilla js coding challenge. Learn to build Build 30 things in 30 days with 30 tutorials. </p>
-            <ul>
-                <li> No Frameworks, No Compilers</li>
-                <li>core JavaScript skills</li>
-                <li>30 Days×30 Videos</li>
-                <li> HTML, CSS and JS Solutions</li>
-            </ul>
-            <p class="price">free!</p>
-            <a href="https://javascript30.com/" class="join">Join</a>
+        <div class="row">
+            <div class="key area1" data-key="81"><span>Q</span></div>
+            <div class="key area1" data-key="87"><span>W</span></div>
+            <div class="key area1" data-key="69"><span>E</span></div>
+            <div class="key area2" data-key="82"><span>R</span></div>
+            <div class="key area2" data-key="84"><span>T</span></div>
+            <div class="key area2" data-key="89"><span>Y</span></div>
+            <div class="key area3" data-key="85"><span>U</span></div>
+            <div class="key area3" data-key="73"><span>I</span></div>
+            <div class="key area3" data-key="79"><span>O</span></div>
+            <div class="key area3" data-key="80"><span>P</span></div>
         </div>
-
-        <div  class="courses">
-            <h2>Flexbox?!</h2>
-            <p>Flexbox sure is tricky to learn.</p>
-            <ul>
-                <li>A simple, 20 video courses</li>
-                <li> build everything layout</li>
-            </ul>
-            <p class="price">free!</p>
-            <a href="https://flexbox.io/" class="join">Join</a>
+        <div class="row">
+            <div class="key area1" data-key="65"><span>A</span></div>
+            <div class="key area1" data-key="83"><span>S</span></div>
+            <div class="key area1" data-key="68"><span>D</span></div>
+            <div class="key area2" data-key="70"><span>F</span></div>
+            <div class="key area2" data-key="71"><span>G</span></div>
+            <div class="key area2" data-key="72"><span>H</span></div>
+            <div class="key area3" data-key="74"><span>J</span></div>
+            <div class="key area3" data-key="75"><span>K</span></div>
+            <div class="key area3" data-key="76"><span>L</span></div>
         </div>
-
+        <div class="row">
+            <div class="key area1" data-key="90"><span>Z</span></div>
+            <div class="key area1" data-key="88"><span>X</span></div>
+            <div class="key area1" data-key="67"><span>C</span></div>
+            <div class="key area2" data-key="86"><span>V</span></div>
+            <div class="key area2" data-key="66"><span>B</span></div>
+            <div class="key area2" data-key="78"><span>N</span></div>
+            <div class="key area3" data-key="77"><span>M</span></div>
+        </div>
+        <div class="row">
+            <div class="key space" data-key="32"><span>space</span></div>
+        </div>
     </section>
 
-    <section class="signup default-section">
-        <form action = "" >
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Email Address" required>
-            <input type="submit" value="Sign me up!">
-        </form>
+    <!-- can`t put the hr 100% width, because it is a flex item ?  these problem not solved yet-->
+    <!--<hr>-->
+
+    <section class="helpList">
+        <header> <h2>FUNCTION DECLARATION</h2></header>
+        <ul>
+            <li><span id="stopIcon">♪</span> -- stop all animation and audio</li>
+            <li> drum kit area</li>
+            <li> electronic music and laugh effects</li>
+            <li> different sound effects and composed music</li>
+        </ul>
     </section>
+</section>
+<footer>
+    <p><a href="https://github.com/eMe-404">&copy; eMe</a></p>
+</footer>
+<!-- Audio -->
+<section class="Audio">
 
-    <footer>
-        <p>&copy; eMe</p>
-    </footer>
+    <audio data-key="49" src="Audio/Drum/(1).mp3"></audio>
+    <audio data-key="50" src="Audio/Drum/(2).mp3"></audio>
+    <audio data-key="51" src="Audio/Drum/(3).mp3"></audio>
+    <audio data-key="52" src="Audio/Electronic/(1).wav"></audio>
+    <audio data-key="53" src="Audio/Electronic/(2).wav"></audio>
+    <audio data-key="54" src="Audio/Electronic/(3).wav"></audio>
+    <audio data-key="55" src="Audio/Voice/1.wav"></audio>
+    <audio data-key="56" src="Audio/Voice/2.wav"></audio>
+    <audio data-key="57" src="Audio/Mix/1.wav"></audio>
+    <audio data-key="48" src="Audio/Mix/2.wav"></audio>
+    <audio data-key="189"></audio>
 
+    <audio data-key="81" src="Audio/Drum/(4).mp3"></audio>
+    <audio data-key="87" src="Audio/Drum/(12).mp3"></audio>
+    <audio data-key="69" src="Audio/Drum/(6).mp3"></audio>
+    <audio data-key="82" src="Audio/Electronic/(4).wav"></audio>
+    <audio data-key="84" src="Audio/Electronic/(5).wav"></audio>
+    <audio data-key="89" src="Audio/Electronic/(6).wav"></audio>
+    <audio data-key="85" src="Audio/Voice/3.wav"></audio>
+    <audio data-key="73" src="Audio/Voice/4.wav"></audio>
+    <audio data-key="79" src="Audio/Mix/3.wav"></audio>
+    <audio data-key="80" src="Audio/Mix/4.wav"></audio>
 
-<script src="FlexBox.js"></script>
-</div>
+    <audio data-key="65" src="Audio/Drum/(7).mp3"></audio>
+    <audio data-key="83" src="Audio/Drum/(8).mp3"></audio>
+    <audio data-key="68" src="Audio/Drum/(9).mp3"></audio>
+    <audio data-key="70" src="Audio/Laugh/(1).wav"></audio>
+    <audio data-key="71" src="Audio/Laugh/(2).wav"></audio>
+    <audio data-key="72" src="Audio/Laugh/(3).wav"></audio>
+    <audio data-key="74" src="Audio/Voice/5.wav"></audio>
+    <audio data-key="75" src="Audio/Voice/6.wav"></audio>
+    <audio data-key="76" src="Audio/Mix/5.wav"></audio>
+
+    <audio data-key="90" src="Audio/Drum/(10).mp3"></audio>
+    <audio data-key="88" src="Audio/Drum/(11).mp3"></audio>
+    <audio data-key="67" src="Audio/Drum/(13).wav"></audio>
+    <audio data-key="86" src="Audio/Laugh/(4).wav"></audio>
+    <audio data-key="66" src="Audio/Laugh/(5).wav"></audio>
+    <audio data-key="78" src="Audio/Laugh/(6).wav"></audio>
+    <audio data-key="77" src="Audio/Voice/7.wav"></audio>
+
+    <audio data-key="32"  src="Audio/Drum/(5).mp3"></audio>
+
+</section>
+
+<script src="Demo1_JS.js"></script>
 </body>
 </html>
