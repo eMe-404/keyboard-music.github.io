@@ -1,0 +1,229 @@
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0 ;
+    background-image: linear-gradient(260deg, #2376ae 0%, #2a4e16 80%);
+}
+
+.flex-nav a{
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: rgba(0,0,0,0.2);
+    padding: 20px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s;
+}
+.top h1{
+    color: white;
+    padding: 20px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.flex-nav a:hover{
+    background: rgba(0,0,0,0.3);
+}
+.wrapper{
+    max-width: 1000px;
+    margin:0 auto;
+    padding: 10px 50px 0 50px;
+}
+.wrapper > *{
+    border-radius: 4px;
+}
+
+#navToggle{
+    display: none;
+}
+
+input{
+    padding: 10px;
+    border: 0px;
+    margin:10px 0px;
+    border-radius: 6px;
+}
+
+img{
+    width: 100%;
+}
+
+.default-section, footer{
+    color: #ffffff;
+    background: rgba(0,0,0,0.2);
+    text-align: center;
+    font-weight: 100;
+    padding: 20px;
+    margin-top:20px;
+
+
+}
+
+#WesBos{
+    color: #d36aff;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
+/* flex container*/
+.flex-nav ul{
+    border:1px solid #25697d;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-radius: inherit;
+}
+
+.flex-nav li {
+    flex: 3;
+}
+
+.flex-nav .social{
+    flex: 1;
+}
+
+
+
+/*
+    flex-grid
+*/
+
+/*  basic style */
+.price-grid h2{
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 3px 3px 0 rgba(0,0,0,0.2);
+}
+
+.price{
+    font-size: 30px;
+}
+
+.join{
+    background: yellow;
+    text-decoration: none;
+    border-radius: 4px;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.courses ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.courses li{
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding: 10px;
+}
+
+.courses li:last-child{
+    border-bottom: none;
+}
+
+.courses:hover{
+    transform: scale(1.1);
+}
+
+/* flex container*/
+.price-grid{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* flex item to price-grid and nesting flex container */
+.courses{
+    background: rgba(255,255,255,0.2);
+    border-radius: 4px;
+    margin: 33px;
+    padding: 10px;
+    text-align: center;
+
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courses > *{
+    flex:1 1 100%;
+}
+
+.courses .join{
+    align-self: flex-end;
+}
+
+@media all and (max-width:1000px){
+    /*
+        flex-nav
+    */
+    .flex-nav ul{
+        flex-wrap: wrap;
+    }
+    .flex-nav li{
+        flex:1 1 50%;
+    }
+    .flex-nav .social{
+        flex:1 1 25%;
+    }
+
+}
+
+/*
+     for different resolution
+*/
+@media all and (max-width:600px){
+    .flex-nav li{
+        flex-basis: 100%;
+    }
+    /* Wrapper Flex Container */
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    /* Flex Item */
+    .wrapper > * {
+        order: 9999;
+    }
+    .flex-nav{
+        order: 1;
+    }
+    .details{
+        order:3;
+    }
+    .top{
+        order: 2;
+    }
+    #navToggle{
+        display: block;
+    }
+    .flex-nav ul{
+        display: none;
+    }
+    .flex-nav ul.open{
+        display: flex;
+    }
+    input{
+        width: 50%;
+    }
+    /*
+    flex-grid
+    */
+    .courses{
+        flex-basis: 100%;
+
+    }
+}

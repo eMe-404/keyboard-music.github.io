@@ -1,0 +1,217 @@
+/*default style*/
+*,*:before,*:after{
+    box-sizing: border-box;
+    /*margin:;*/
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: sans-serif;
+    margin: 0 ;
+    background-image: linear-gradient(260deg, #2376ae 0%, #2a4e16 80%);
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    min-height: 100%;
+
+}
+
+header nav {
+    background-image: linear-gradient(260deg, #2374a7 6%, #b6091a 84%);
+    opacity: .5;
+    padding: 5px;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-family: "Bernard MT Condensed";
+}
+
+header nav:hover{
+    opacity: .8;
+}
+
+footer{
+    background-image: linear-gradient(270deg, #b6091a 45%, #2a4e16 77%);
+    opacity: .5;
+    /*padding: 5px;*/
+
+    text-align: center;
+    margin-top: 30px;
+}
+footer a{
+    color: white;
+    font-family: "Bernard MT Condensed";
+    text-decoration: none;
+}
+
+.myContainer{
+    max-width: 1080px;
+    min-width: 400px;
+    margin:0 auto;
+    flex: 1;
+    /*height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myContainer > *{
+    order: 999;
+
+}
+
+.header h1{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    order: 1;
+    font-family: "Algerian";
+    text-shadow: 1px 0 5px #FF0000;
+}
+
+.DrumPic{
+    text-align: center;
+}
+
+.DrumKit{
+    color: #9E9E9E;
+    height: 50%;
+    margin: 50px;
+
+    /* flex container */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.row{
+    display: flex;
+    justify-content:center;
+}
+
+
+.key{
+    border:1px solid #fffed7;
+
+    box-shadow: 6px 8px 5px #190303;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    margin:10px;
+    transition: all .07s;
+    /*nesting flex box order to centering the content vertical and horizontal*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DrumKit .area1{
+    background-image: linear-gradient(139deg, #b68a10 0%, #330e0e 60%);
+}
+
+.DrumKit .area2{
+    background-image: linear-gradient(139deg, #b311b6 0%, #330e0e 60%);
+}
+
+.DrumKit .area3{
+    background-image: linear-gradient(139deg, #66b639 0%, #330e0e 60%);
+}
+
+
+.space{
+    width: 30%;
+    background-image: linear-gradient(139deg, #fff9e1 0%, #b6091a 80%);
+    color: black;
+}
+
+#stopKey{
+    background-image: linear-gradient(139deg, #fff9e1 0%, #b6091a 80%);
+    color: black;
+}
+
+/* key pressed animation*/
+.keyPressed{
+    border: 2px solid #e3ff3b;
+    transform: scale(1.2);
+}
+
+/*                   function declaration style                          */
+
+/*hr {
+    width: 100%;
+    background-image: linear-gradient(260deg, #2a4e16 50%, #2376ae 0%);
+    height: 2px;
+    padding: 1px;
+    border: 0;
+    opacity: 0.5;
+    display: block;
+}*/
+
+.helpList header{
+    /*background-image: linear-gradient(180deg, #F44336 10%, #5B0425 100%);*/
+    text-align: center;
+    font-family: "Algerian";
+    text-shadow: 1px 0 5px #FF0000;
+}
+
+.helpList ul{
+    -webkit-padding-start: 0;
+}
+
+.helpList li{
+    color: #fffed7;
+    padding: 13px;
+    list-style: none;
+    border-top-left-radius: 4px;
+    font-family: "Broadway";
+
+}
+.helpList ul li:nth-child(1){
+    background-image: linear-gradient(139deg,#b6091a 0%, #330e0e 90%);
+}
+#stopIcon{
+    color: black;
+}
+
+.helpList ul li:nth-child(2){
+    background-image: linear-gradient(139deg, #b68a10 0%, #330e0e 80%);
+}
+.helpList ul li:nth-child(3){
+    background-image: linear-gradient(139deg, #b311b6 0%, #330e0e 70%);
+}
+.helpList ul li:nth-child(4){
+    background-image: linear-gradient(139deg, #66b639 0%, #330e0e 60%);
+}
+
+
+@media all and (max-width: 840px){
+    .DrumKit{
+        margin: 30px 0;
+
+
+    }
+    .key{
+        width:35px;
+        height: 35px;
+    }
+    .space{
+        width: 30%;
+    }
+}
+@media all and (max-width: 600px){
+    .key{
+        width:25px;
+        height: 25px;
+        font-size: 8px;
+        margin: 3px;
+    }
+
+    .space{
+        width: 30%;
+    }
+
+}

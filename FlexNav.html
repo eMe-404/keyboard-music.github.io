@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+    <title>FlexBox and JS Demo</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="FlexNavStyle.css">
+    <script src="jquery-3.2.1.min/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <header class="top">
+        <h1>FlexBox and JS Demo</h1>
+    </header>
+    <nav class="flex-nav">
+        <a id="navToggle" href="#">Menu ≡</a>
+        <ul id="ul">
+            <li><a href="Demo1.html">Demo 01</a></li>
+            <li><a href="#">Demo 02</a></li>
+            <li><a href="#">Demo 03</a></li>
+            <li><a href="#">Demo 04</a></li>
+            <li><a href="#">Demo 05</a></li>
+            <li><a href="#">Demo 06</a></li>
+
+            <li class="social">
+                <a href="https://eme-404.github.io/myPortfolio/"><i class="fa fa-twitter"></i> </a>
+            </li>
+            <li class="social">
+                <a href="https://eme-404.github.io/myPortfolio/"><i class="fa fa-facebook"></i> </a>
+            </li>
+            <li class="social">
+                <a href="https://github.com/eMe-404"><i class="fa fa-github"></i> </a>
+            </li>
+            <li class="social">
+                <a href="https://eme-404.github.io/myPortfolio/"><i class="fa fa-free-code-camp"></i> </a>
+            </li>
+
+        </ul>
+    </nav>
+    
+    <section class="hero default-section">
+        <img id="img" alt="loading the picture..." src="">
+    </section>
+
+    <section class="details default-section">
+        <p>You can click the picture to change it</p>
+        <p>Highly recommend Wes Bos courses ,sign up today to grab all the videos and exercises!
+            <a href="http://wesbos.com/" id="WesBos">Wes Bos</a></p>
+    </section>
+
+    <section class="price-grid">
+        <div  class="courses">
+            <h2>ES6</h2>
+            <p>ES6 is a major update and includes new features. </p>
+            <ul>
+                <li>A premium training course</li>
+                <li>core JavaScript skills</li>
+            </ul>
+            <p class="price">78$</p>
+            <a href="https://es6.io/" class="join">Join</a>
+        </div>
+
+        <div  class="courses">
+            <h2>JS 30</h2>
+            <p>A free 30 day vanilla js coding challenge. Learn to build Build 30 things in 30 days with 30 tutorials. </p>
+            <ul>
+                <li> No Frameworks, No Compilers</li>
+                <li>core JavaScript skills</li>
+                <li>30 Days×30 Videos</li>
+                <li> HTML, CSS and JS Solutions</li>
+            </ul>
+            <p class="price">free!</p>
+            <a href="https://javascript30.com/" class="join">Join</a>
+        </div>
+
+        <div  class="courses">
+            <h2>Flexbox?!</h2>
+            <p>Flexbox sure is tricky to learn.</p>
+            <ul>
+                <li>A simple, 20 video courses</li>
+                <li> build everything layout</li>
+            </ul>
+            <p class="price">free!</p>
+            <a href="https://flexbox.io/" class="join">Join</a>
+        </div>
+
+    </section>
+
+    <section class="signup default-section">
+        <form action = "" >
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="submit" value="Sign me up!">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; eMe</p>
+    </footer>
+
+
+<script src="FlexBox.js"></script>
+</div>
+</body>
+</html>
