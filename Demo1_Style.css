@@ -153,6 +153,7 @@ footer a{
 
 .helpList header{
     /*background-image: linear-gradient(180deg, #F44336 10%, #5B0425 100%);*/
+    margin-top: 60px;
     text-align: center;
     font-family: "Algerian";
     text-shadow: 1px 0 5px #FF0000;

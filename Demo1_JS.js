@@ -1,6 +1,9 @@
 const bar = document.querySelectorAll(".bar");
 bar.forEach(b => b.style.animation = "unset"); //first enter the page ,there should no be any animation
 
+const allAudio = document.querySelectorAll("audio"); //preload the music
+allAudio.forEach(audio => audio.preload);
+
 function playSound(e) {
     e.preventDefault();      //can prevent the space pressed fox problem
                             // but all other defaults prevented too including the F12.
@@ -144,13 +147,13 @@ function keyBarAnimation(target,keycode) {
 }
 
 
-function stopAll() {
+/*function stopAll() {
     const  allAudio = document.querySelectorAll("audio");
     const bar = document.querySelectorAll(".bar");
 
     // allAudio.forEach(a => a.pause());
     bar.forEach(b => b.style.animation = "unset");
-}
+}*/
 
 function removeTransition(e) {
     if(e.propertyName !== "transform") return;
