@@ -1,10 +1,10 @@
 const bar = document.querySelectorAll(".bar");
 bar.forEach(b => b.style.animation = "unset"); //first enter the page ,there should no be any animation
 
-const allAudio = document.querySelectorAll("audio"); //preload the music
+/*const allAudio = document.querySelectorAll("audio"); //preload the music but it can`t help github still can`t play the sound
 allAudio.forEach(function (audio) {
     audio.setAttribute("preload","auto");
-});
+});*/
 
 function playSound(e) {
     e.preventDefault();      //can prevent the space pressed fox problem
