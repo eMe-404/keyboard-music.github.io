@@ -10,8 +10,6 @@ function playSound(e) {
     if(e.keyCode === 32){
         e.preventDefault();   //can prevent when pressed space key the screen auto moved issue
     }
-
-                            // but all other defaults prevented too including the F12.
     const keyPressed = document.querySelector(`div[data-key = "${e.keyCode}"]`);
     const audio = document.querySelector(`audio[data-key = "${e.keyCode}"]`);
 
