@@ -10,7 +10,7 @@ function playSound(e) {
     e.preventDefault();      //can prevent the space pressed fox problem
                             // but all other defaults prevented too including the F12.
     const keyPressed = document.querySelector(`div[data-key = "${e.keyCode}"]`);
-    const audio = document.querySelector(`embed[data-key = "${e.keyCode}"]`);
+    const audio = document.querySelector(`audio[data-key = "${e.keyCode}"]`);
 
     /*  //create another function to play all the Desktop and mobile animation
 
@@ -92,7 +92,7 @@ function touche(e) {
     // e.currentTarget.classList.add("keyPressed");
 
     const keycode =e.currentTarget.getAttribute("data-key");
-    const audio = document.querySelector(`embed[data-key = "${keycode}"]`);
+    const audio = document.querySelector(`audio[data-key = "${keycode}"]`);
     if(!audio) return;
 
     keyBarAnimation(e.currentTarget,keycode);
@@ -104,7 +104,7 @@ function touche(e) {
 function keyBarAnimation(target,keycode) {
 
     const bar = document.querySelectorAll(".bar");
-    const  allAudio = document.querySelectorAll("embed");
+    const  allAudio = document.querySelectorAll("audio");
 
     //three bar area match with html ,in order to change bar color with key area color
     let bar1 = document.getElementsByClassName("bar area1");
