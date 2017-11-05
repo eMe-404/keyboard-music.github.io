@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e7555c0-aa02-4fd1-bda8-d025d456b9ef" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Demo2/clockAnimation.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homePage.html" afterPath="$PROJECT_DIR$/homePage.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Demo1_JS.js" afterPath="$PROJECT_DIR$/Demo1/Demo1_JS.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Demo1_Style.css" afterPath="$PROJECT_DIR$/Demo1/Demo1_Style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MusicAnimation.css" afterPath="$PROJECT_DIR$/Demo1/MusicAnimation.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/Demo1/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,69 +28,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Demo1_Style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo1_Style.css">
+      <file leaf-file-name="clockAnimation.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Demo2/clockAnimation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="155" column="21" lean-forward="false" selection-start-line="155" selection-start-column="21" selection-end-line="155" selection-end-column="21" />
+            <state relative-caret-position="735">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="backgroundAnimation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demo2/backgroundAnimation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-              <folding>
-                <element signature="e#4836#4842#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homePage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homePage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="630">
+              <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MusicAnimation.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MusicAnimation.css">
+      <file leaf-file-name="clockAnimation.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demo2/clockAnimation.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49470">
-              <caret line="1649" column="29" lean-forward="false" selection-start-line="1649" selection-start-column="29" selection-end-line="1649" selection-end-column="29" />
+            <state relative-caret-position="727">
+              <caret line="114" column="15" lean-forward="false" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo1_JS.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Demo1_JS.js">
+      <file leaf-file-name="clockAnimation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demo2/clockAnimation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="570">
+              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1507993179544" expanded="true" signature="51523:51540" ph="..." />
-                <marker date="1507993179544" expanded="true" signature="51523:51558" ph="..." />
-                <marker date="1507993179544" expanded="true" signature="51523:51571" ph="..." />
-                <marker date="1507993179544" expanded="true" signature="51523:51586" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -94,15 +74,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>h2</find>
-      <find>cont</find>
       <find>\&lt;div class&gt;\</find>
       <find>\n        \&lt;di class\=\&quot;key\&quot; data\-key\=\&quot;49\&quot;\&gt;\&lt;span\&gt;1\&lt;\/span\&gt;\&lt;\/di\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;50\&quot;\&gt;\&lt;span\&gt;2\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;51\&quot;\&gt;\&lt;span\&gt;3\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;52\&quot;\&gt;\&lt;span\&gt;4\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;53\&quot;\&gt;\&lt;span\&gt;5\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;54\&quot;\&gt;\&lt;span\&gt;6\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;55\&quot;\&gt;\&lt;span\&gt;7\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;56\&quot;\&gt;\&lt;span\&gt;8\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;57\&quot;\&gt;\&lt;span\&gt;9\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;48\&quot;\&gt;\&lt;span\&gt;0\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;189\&quot;\&gt;\&lt;span\&gt;\♪\&lt;\/span\&gt;\&lt;\/div\&gt;\n\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;81\&quot;\&gt;\&lt;span\&gt;Q\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;87\&quot;\&gt;\&lt;span\&gt;W\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;69\&quot;\&gt;\&lt;span\&gt;E\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;82\&quot;\&gt;\&lt;span\&gt;R\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;84\&quot;\&gt;\&lt;span\&gt;T\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;89\&quot;\&gt;\&lt;span\&gt;Y\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;85\&quot;\&gt;\&lt;span\&gt;U\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;73\&quot;\&gt;\&lt;span\&gt;I\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;79\&quot;\&gt;\&lt;span\&gt;O\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;80\&quot;\&gt;\&lt;span\&gt;P\&lt;\/span\&gt;\&lt;\/div\&gt;\n\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;65\&quot;\&gt;\&lt;span\&gt;A\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;83\&quot;\&gt;\&lt;span\&gt;S\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;68\&quot;\&gt;\&lt;span\&gt;D\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;70\&quot;\&gt;\&lt;span\&gt;F\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;71\&quot;\&gt;\&lt;span\&gt;G\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;72\&quot;\&gt;\&lt;span\&gt;H\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;74\&quot;\&gt;\&lt;span\&gt;J\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;75\&quot;\&gt;\&lt;span\&gt;K\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;76\&quot;\&gt;\&lt;span\&gt;L\&lt;\/span\&gt;\&lt;\/div\&gt;\n\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;90\&quot;\&gt;\&lt;span\&gt;Z\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;88\&quot;\&gt;\&lt;span\&gt;X\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;67\&quot;\&gt;\&lt;span\&gt;C\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;86\&quot;\&gt;\&lt;span\&gt;V\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;66\&quot;\&gt;\&lt;span\&gt;B\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;78\&quot;\&gt;\&lt;span\&gt;N\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;77\&quot;\&gt;\&lt;span\&gt;M\&lt;\/span\&gt;\&lt;\/div\&gt;\n\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;32\&quot;\&gt;\&lt;span\&gt;space\&lt;\/span\&gt;\&lt;\/div\&gt;\n</find>
       <find>\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;49\&quot;\&gt;\&lt;span\&gt;1\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;50\&quot;\&gt;\&lt;span\&gt;2\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;51\&quot;\&gt;\&lt;span\&gt;3\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;52\&quot;\&gt;\&lt;span\&gt;4\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;53\&quot;\&gt;\&lt;span\&gt;5\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;54\&quot;\&gt;\&lt;span\&gt;6\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;55\&quot;\&gt;\&lt;span\&gt;7\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;56\&quot;\&gt;\&lt;span\&gt;8\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;57\&quot;\&gt;\&lt;span\&gt;9\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;48\&quot;\&gt;\&lt;span\&gt;0\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;189\&quot;\&gt;\&lt;span\&gt;\♪\&lt;\/span\&gt;\&lt;\/div\&gt;\n\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;81\&quot;\&gt;\&lt;span\&gt;Q\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;87\&quot;\&gt;\&lt;span\&gt;W\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;69\&quot;\&gt;\&lt;span\&gt;E\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;82\&quot;\&gt;\&lt;span\&gt;R\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;84\&quot;\&gt;\&lt;span\&gt;T\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;89\&quot;\&gt;\&lt;span\&gt;Y\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;85\&quot;\&gt;\&lt;span\&gt;U\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;73\&quot;\&gt;\&lt;span\&gt;I\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;79\&quot;\&gt;\&lt;span\&gt;O\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;80\&quot;\&gt;\&lt;span\&gt;P\&lt;\/span\&gt;\&lt;\/div\&gt;\n\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;65\&quot;\&gt;\&lt;span\&gt;A\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;83\&quot;\&gt;\&lt;span\&gt;S\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;68\&quot;\&gt;\&lt;span\&gt;D\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;70\&quot;\&gt;\&lt;span\&gt;F\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;71\&quot;\&gt;\&lt;span\&gt;G\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;72\&quot;\&gt;\&lt;span\&gt;H\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;74\&quot;\&gt;\&lt;span\&gt;J\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;75\&quot;\&gt;\&lt;span\&gt;K\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;76\&quot;\&gt;\&lt;span\&gt;L\&lt;\/span\&gt;\&lt;\/div\&gt;\n\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;90\&quot;\&gt;\&lt;span\&gt;Z\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;88\&quot;\&gt;\&lt;span\&gt;X\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;67\&quot;\&gt;\&lt;span\&gt;C\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;86\&quot;\&gt;\&lt;span\&gt;V\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;66\&quot;\&gt;\&lt;span\&gt;B\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;78\&quot;\&gt;\&lt;span\&gt;N\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;77\&quot;\&gt;\&lt;span\&gt;M\&lt;\/span\&gt;\&lt;\/div\&gt;\n\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;32\&quot;\&gt;\&lt;span\&gt;space\&lt;\/span\&gt;\&lt;\/div\&gt;\n</find>
@@ -117,7 +95,6 @@
       <find>order</find>
       <find>hr</find>
       <find>space</find>
-      <find>footer</find>
       <find>\n\n    \&lt;audio data\-key\=\&quot;49\&quot; src\=\&quot;Audio\/Drum\/\(1\)\.mp3\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;50\&quot; src\=\&quot;Audio\/Drum\/\(2\)\.mp3\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;51\&quot; src\=\&quot;Audio\/Drum\/\(3\)\.mp3\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;52\&quot; src\=\&quot;Audio\/Electronic\/\(1\)\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;53\&quot; src\=\&quot;Audio\/Electronic\/\(2\)\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;54\&quot; src\=\&quot;Audio\/Electronic\/\(3\)\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;55\&quot; src\=\&quot;Audio\/Voice\/1\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;56\&quot; src\=\&quot;Audio\/Voice\/2\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;57\&quot; src\=\&quot;Audio\/Mix\/1\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;48\&quot; src\=\&quot;Audio\/Mix\/2\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;189\&quot;\&gt;\&lt;\/audio\&gt;\n\n    \&lt;audio data\-key\=\&quot;81\&quot; src\=\&quot;Audio\/Drum\/\(4\)\.mp3\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;87\&quot; src\=\&quot;Audio\/Drum\/\(12\)\.mp3\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;69\&quot; src\=\&quot;Audio\/Drum\/\(6\)\.mp3\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;82\&quot; src\=\&quot;Audio\/Electronic\/\(4\)\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;84\&quot; src\=\&quot;Audio\/Electronic\/\(5\)\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;89\&quot; src\=\&quot;Audio\/Electronic\/\(6\)\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;85\&quot; src\=\&quot;Audio\/Voice\/3\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;73\&quot; src\=\&quot;Audio\/Voice\/4\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;79\&quot; src\=\&quot;Audio\/Mix\/3\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;80\&quot; src\=\&quot;Audio\/Mix\/4\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n\n    \&lt;audio data\-key\=\&quot;65\&quot; src\=\&quot;Audio\/Drum\/\(7\)\.mp3\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;83\&quot; src\=\&quot;Audio\/Drum\/\(8\)\.mp3\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;68\&quot; src\=\&quot;Audio\/Drum\/\(9\)\.mp3\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;70\&quot; src\=\&quot;Audio\/Laugh\/\(1\)\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;71\&quot; src\=\&quot;Audio\/Laugh\/\(2\)\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;72\&quot; src\=\&quot;Audio\/Laugh\/\(3\)\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;74\&quot; src\=\&quot;Audio\/Voice\/5\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;75\&quot; src\=\&quot;Audio\/Voice\/6\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;76\&quot; src\=\&quot;Audio\/Mix\/5\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n\n    \&lt;audio data\-key\=\&quot;90\&quot; src\=\&quot;Audio\/Drum\/\(10\)\.mp3\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;88\&quot; src\=\&quot;Audio\/Drum\/\(11\)\.mp3\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;67\&quot; src\=\&quot;Audio\/Drum\/\(13\)\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;86\&quot; src\=\&quot;Audio\/Laugh\/\(4\)\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;66\&quot; src\=\&quot;Audio\/Laugh\/\(5\)\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;78\&quot; src\=\&quot;Audio\/Laugh\/\(6\)\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n    \&lt;audio data\-key\=\&quot;77\&quot; src\=\&quot;Audio\/Voice\/7\.wav\&quot;\&gt;\&lt;\/audio\&gt;\n\n    \&lt;audio data\-key\=\&quot;32\&quot;  src\=\&quot;Audio\/Drum\/\(5\)\.mp3\&quot;\&gt;\&lt;\/audio\&gt;\n\n</find>
       <find>&lt;audio data-key=&quot;.{3} src</find>
       <find>&lt;audio data-key=.{4}</find>
@@ -127,6 +104,13 @@
       <find>&lt;audio preload=&quot;metadata&quot;</find>
       <find>&lt;/audio&gt;</find>
       <find>audio</find>
+      <find>second</find>
+      <find>nav</find>
+      <find>flex</find>
+      <find>footer</find>
+      <find>colors</find>
+      <find>this.color</find>
+      <find>header</find>
     </findStrings>
     <replaceStrings>
       <replace>\n        \&lt;audio class\=\&quot;key\&quot; data\-key\=\&quot;49\&quot;\&gt;\&lt;span\&gt;1\&lt;\/span\&gt;\&lt;\/di\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;50\&quot;\&gt;\&lt;span\&gt;2\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;51\&quot;\&gt;\&lt;span\&gt;3\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;52\&quot;\&gt;\&lt;span\&gt;4\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;53\&quot;\&gt;\&lt;span\&gt;5\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;54\&quot;\&gt;\&lt;span\&gt;6\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;55\&quot;\&gt;\&lt;span\&gt;7\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;56\&quot;\&gt;\&lt;span\&gt;8\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;57\&quot;\&gt;\&lt;span\&gt;9\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;48\&quot;\&gt;\&lt;span\&gt;0\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;189\&quot;\&gt;\&lt;span\&gt;\♪\&lt;\/span\&gt;\&lt;\/div\&gt;\n\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;81\&quot;\&gt;\&lt;span\&gt;Q\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;87\&quot;\&gt;\&lt;span\&gt;W\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;69\&quot;\&gt;\&lt;span\&gt;E\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;82\&quot;\&gt;\&lt;span\&gt;R\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;84\&quot;\&gt;\&lt;span\&gt;T\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;89\&quot;\&gt;\&lt;span\&gt;Y\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;85\&quot;\&gt;\&lt;span\&gt;U\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;73\&quot;\&gt;\&lt;span\&gt;I\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;79\&quot;\&gt;\&lt;span\&gt;O\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;80\&quot;\&gt;\&lt;span\&gt;P\&lt;\/span\&gt;\&lt;\/div\&gt;\n\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;65\&quot;\&gt;\&lt;span\&gt;A\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;83\&quot;\&gt;\&lt;span\&gt;S\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;68\&quot;\&gt;\&lt;span\&gt;D\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;70\&quot;\&gt;\&lt;span\&gt;F\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;71\&quot;\&gt;\&lt;span\&gt;G\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;72\&quot;\&gt;\&lt;span\&gt;H\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;74\&quot;\&gt;\&lt;span\&gt;J\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;75\&quot;\&gt;\&lt;span\&gt;K\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;76\&quot;\&gt;\&lt;span\&gt;L\&lt;\/span\&gt;\&lt;\/div\&gt;\n\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;90\&quot;\&gt;\&lt;span\&gt;Z\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;88\&quot;\&gt;\&lt;span\&gt;X\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;67\&quot;\&gt;\&lt;span\&gt;C\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;86\&quot;\&gt;\&lt;span\&gt;V\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;66\&quot;\&gt;\&lt;span\&gt;B\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;78\&quot;\&gt;\&lt;span\&gt;N\&lt;\/span\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;77\&quot;\&gt;\&lt;span\&gt;M\&lt;\/span\&gt;\&lt;\/div\&gt;\n\n        \&lt;div class\=\&quot;key\&quot; data\-key\=\&quot;32\&quot;\&gt;\&lt;span\&gt;space\&lt;\/span\&gt;\&lt;\/div\&gt;\n</replace>
@@ -171,10 +155,15 @@
         <option value="$PROJECT_DIR$/MusicAnimation.css" />
         <option value="$PROJECT_DIR$/Demo1.html" />
         <option value="$PROJECT_DIR$/FlexNav.html" />
-        <option value="$PROJECT_DIR$/homePage.html" />
         <option value="$PROJECT_DIR$/Demo1_Style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Demo1_JS.js" />
+        <option value="$PROJECT_DIR$/Demo2/clockAnimation.js" />
+        <option value="$PROJECT_DIR$/Demo1/Demo1_Style.css" />
+        <option value="$PROJECT_DIR$/homePage.html" />
+        <option value="$PROJECT_DIR$/Demo2/backgroundAnimation.js" />
+        <option value="$PROJECT_DIR$/Demo2/clockAnimation.html" />
+        <option value="$PROJECT_DIR$/Demo2/clockAnimation.css" />
       </list>
     </option>
   </component>
@@ -196,7 +185,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="976" />
+    <option name="width" value="741" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -215,6 +204,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -233,11 +223,15 @@
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,9 +242,14 @@
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WSprojects\untitled\Demo1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -264,8 +263,19 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JavaScript Debug.clockAnimation.html">
+    <configuration name="clockAnimation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/Demo2/clockAnimation.html" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.clockAnimation.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",HTML5_OUTLINE_MODE" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -292,7 +302,16 @@
       <workItem from="1507706105022" duration="1091000" />
       <workItem from="1507854698202" duration="34000" />
       <workItem from="1507899649840" duration="1205000" />
-      <workItem from="1507990688776" duration="2340000" />
+      <workItem from="1507990688776" duration="2407000" />
+      <workItem from="1508041408678" duration="275000" />
+      <workItem from="1508041710069" duration="101000" />
+      <workItem from="1508045577203" duration="3566000" />
+      <workItem from="1508481812095" duration="20000" />
+      <workItem from="1508482544386" duration="2146000" />
+      <workItem from="1509442083961" duration="1815000" />
+      <workItem from="1509691451586" duration="7929000" />
+      <workItem from="1509773390195" duration="12838000" />
+      <workItem from="1509861269648" duration="14478000" />
     </task>
     <task id="LOCAL-00001" summary="use preload audio">
       <created>1507900216335</created>
@@ -357,11 +376,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507993190823</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="--">
+      <created>1507993208356</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1507993208356</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157497000" />
+    <option name="totallyTimeSpent" value="200732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,24 +400,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13742071" sideWeight="0.49072513" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15803383" sideWeight="0.49072513" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44004524" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3325792" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24895833" sideWeight="0.4955654" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24894291" sideWeight="0.5092749" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24894291" sideWeight="0.4955654" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2483871" sideWeight="0.5092749" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39479637" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44004524" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -434,34 +462,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FlexBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo1.html" />
-    <entry file="file://$PROJECT_DIR$/FlexNav.html" />
-    <entry file="file://$PROJECT_DIR$/FlexBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlexNavStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FlexNav.html" />
     <entry file="file://$PROJECT_DIR$/FlexBox.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -530,7 +535,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Demo1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -577,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlexNavStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/font-awesome-4.7.0/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -598,19 +596,17 @@
     <entry file="file://$PROJECT_DIR$/DrumPic.svg" />
     <entry file="file://$PROJECT_DIR$/Demo1.html" />
     <entry file="file://$PROJECT_DIR$/FlexNav.html" />
-    <entry file="file://$PROJECT_DIR$/homePage.html">
+    <entry file="file://$PROJECT_DIR$/Demo1/Demo1_JS.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="4680">
+          <caret line="156" column="40" lean-forward="false" selection-start-line="156" selection-start-column="40" selection-end-line="156" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MusicAnimation.css">
+    <entry file="file://$PROJECT_DIR$/Demo1/MusicAnimation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49470">
+        <state relative-caret-position="496">
           <caret line="1649" column="29" lean-forward="false" selection-start-line="1649" selection-start-column="29" selection-end-line="1649" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,37 +614,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1507993179544" expanded="true" signature="51523:51540" ph="..." />
-            <marker date="1507993179544" expanded="true" signature="51523:51558" ph="..." />
-            <marker date="1507993179544" expanded="true" signature="51523:51571" ph="..." />
-            <marker date="1507993179544" expanded="true" signature="51523:51586" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo1_Style.css">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="155" column="21" lean-forward="false" selection-start-line="155" selection-start-column="21" selection-end-line="155" selection-end-column="21" />
+        <state relative-caret-position="4327">
+          <caret line="6502" column="0" lean-forward="false" selection-start-line="6502" selection-start-column="0" selection-end-line="6502" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexNavStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/homePage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding>
-            <element signature="e#4836#4842#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="6" column="74" lean-forward="true" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo1_JS.js">
+    <entry file="file://$PROJECT_DIR$/Demo1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="110" column="7" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="112" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo1/Demo1_Style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo2/clockAnimation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo2/backgroundAnimation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo2/clockAnimation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="114" column="15" lean-forward="false" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo2/clockAnimation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
